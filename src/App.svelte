@@ -43,7 +43,7 @@
       name: '카드 플리퍼 🃏',
       description: '적당히의 미학을 게임으로 느껴보자!',
       img: card,
-      link: '/'
+      link: 'https://solarcdev.github.io/flipper/flipper.html'
     },
   ]
 </script>
