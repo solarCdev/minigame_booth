@@ -1,0 +1,131 @@
+@font-face {
+  font-family: "LOTTERIACHAB";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/LOTTERIACHAB.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+  --mint: #2bfca4;
+  --gray: #8e8e8e;
+}
+
+* {
+  font-family: "Pretendard-Regular", system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+    "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+main {
+  background-color: #191919;
+}
+
+nav {
+  height: 96px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  height: 48px;
+}
+
+.banner {
+  width: 100%;
+  height: 240px;
+  background: url("./assets/console.jpg") center;
+  padding: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-wrap {
+  display: flex;
+  gap: 120px;
+  align-items: center;
+}
+
+h1 {
+  font-family: "LOTTERIACHAB", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  font-weight: normal;
+  color: var(--mint);
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+a {
+  width: fit-content;
+  text-decoration: none;
+}
+
+.wrap {
+  width: 100%;
+  padding: 36px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+  width: fit-content;
+  padding: 20px;
+  margin: 20px;
+  margin-bottom: 48px;
+  transition: 0.1s ease-in;
+  border-radius: 12px;
+}
+
+.card:hover {
+  background-color: #212121;
+}
+
+.content-img {
+  width: 360px;
+  height: 280px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 4px;
+}
+
+.des-wrap {
+  padding: 8px;
+}
+
+h3 {
+  font-size: 24px;
+  height: 36px;
+}
+
+p {
+  font-size: 16px;
+  height: 24px;
+  font-weight: 400;
+  color: var(--gray);
+}
+
+footer {
+  background-color: black;
+  padding: 24px;
+}
